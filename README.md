@@ -1,6 +1,6 @@
 # Akaunt App
 
-A mobile application when you can search the exchange rate of USD to COP in different periods of time.
+A mobile application where you can search the exchange rate of USD to COP in different periods of time.
 
 ## Getting Started
 
@@ -26,7 +26,7 @@ Let's run the application!
 
 ## Libraries & Tools Used
  
-  * [Font Awesome Flutter](https://pub.dev/packages/font_awesome_flutter): Additional iconography to the default.
+  * [Flutter Riverpood](https://pub.dev/packages/riverpod): library used to handle the state of the application.
   * [Font Awesome Flutter](https://pub.dev/packages/font_awesome_flutter): This library is used to manage the state of Akaunt application.
   * [Http](https://pub.dev/packages/http): Allows make network requests.
   * [Intl](https://pub.dev/packages/intl): Format ceratain currencies and dates according to the given parameters as language or country.
