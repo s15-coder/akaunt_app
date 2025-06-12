@@ -12,7 +12,7 @@ ThemeData darkTheme = ThemeData(
     systemOverlayStyle: SystemUiOverlayStyle.dark,
   ),
   radioTheme: RadioThemeData(
-    fillColor: MaterialStateColor.resolveWith(
+    fillColor: WidgetStateColor.resolveWith(
       (states) => AkauntColors.green,
     ),
   ),

@@ -17,7 +17,7 @@ class CustomCircleAvatar extends StatelessWidget {
       ? LinearGradient(
           colors: [
             AkauntColors.green,
-            AkauntColors.green.withOpacity(0),
+            AkauntColors.green.withAlpha(0),
           ],
           begin: Alignment.centerRight,
           end: Alignment.topLeft,

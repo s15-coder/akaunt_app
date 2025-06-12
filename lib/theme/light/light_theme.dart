@@ -14,7 +14,7 @@ ThemeData lightTheme = ThemeData(
     systemOverlayStyle: SystemUiOverlayStyle.dark,
   ),
   radioTheme: RadioThemeData(
-    fillColor: MaterialStateColor.resolveWith((states) => AkauntColors.green),
+    fillColor: WidgetStateColor.resolveWith((states) => AkauntColors.green),
   ),
   inputDecorationTheme: const InputDecorationTheme(
     floatingLabelStyle: TextStyle(color: Colors.black),

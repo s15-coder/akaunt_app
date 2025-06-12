@@ -10,7 +10,7 @@ void main() {
   testWidgets(
     "Default info is shown right",
     (WidgetTester tester) async {
-      final pumpWidget = AppWrapperTest(
+      const pumpWidget = AppWrapperTest(
           child: SelectedTdcInfoCard(
         exchangeRateState: ExchangeRateState(),
       ));

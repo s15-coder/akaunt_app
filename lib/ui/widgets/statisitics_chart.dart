@@ -60,8 +60,8 @@ class _StatisticsChartState extends State<StatisticsChart> {
     final List<double> stops = <double>[];
 
     color.add(AkauntColors.green);
-    color.add(AkauntColors.green.withOpacity(0.7));
-    color.add(AkauntColors.green.withOpacity(0));
+    color.add(AkauntColors.green.withValues(alpha: .7));
+    color.add(AkauntColors.green.withAlpha(0));
 
     stops.add(0.0);
     stops.add(0.7);

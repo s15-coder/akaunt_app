@@ -1,4 +1,3 @@
-import 'package:akaunt_app/models/time_range.dart';
 import 'package:akaunt_app/state/exchange_rate/state.dart';
 import 'package:akaunt_app/ui/widgets/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -9,7 +8,7 @@ void main() {
   testWidgets("The required labels are shown", (tester) async {
     final widget = AppWrapperTest(
         child: DefaultTimesList(
-      exchangeRateState: ExchangeRateState(),
+      exchangeRateState: const ExchangeRateState(),
       onChangeTimeRange: (_) {},
     ));
     await tester.pumpWidget(widget);
